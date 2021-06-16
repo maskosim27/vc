@@ -1,4 +1,4 @@
-apt install nano
-wget https://github.com/maskosim27/xxx/releases/download/1.23/miner_pool_worker_hacash_ubuntu64.zip
-unzip miner_pool_worker_hacash_ubuntu64.zip
-./hacash_miner_pool_worker_2021_05_06_01
+wget https://github.com/doktor83/SRBMiner-Multi/releases/download/0.7.6/SRBMiner-Multi-0-7-6-Linux.tar.xz
+tar -xvf SRBMiner-Multi-0-7-6-Linux.tar.xz
+cd SRBMiner-Multi-0-7-6
+./SRBMiner-MULTI --disable-gpu --algorithm randomhash2 --pool fastpool.xyz:3338 --wallet 424050-35.01ed11e54e8f449f917e6dbc5fe3596a.3
